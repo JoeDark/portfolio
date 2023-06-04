@@ -1,0 +1,59 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+.bordered{
+  border-radius: 25px;
+  border-style: solid;
+  border-color: blueviolet;
+}
+
+@media screen and (max-width: 500px){
+  
+
+
+}
+
+.mainText{
+  display: flex;
+  position: absolute;
+  top: 5%;
+  padding-left: 5px;
+  padding-right: 5px;
+  left: .5%;
+  right: 50%;
+  width: 20%;
+  font-size: 1rem;
+  background: #00000033;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  align-items: center;
+  flex-direction: column;
+} 
+.iconRow{
+  display: flex;
+  position: relative;
+  width: 20%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: -webkit-fill-available;
+  padding-top: 3px;
+  padding-bottom: 5px;
+} 
+.links{
+  align-items: center;
+}
+.bodyText{
+  max-width: 175px;
+  font-family: monospace;
+}
+.headerText{
+  font-family: fangsong;
+}
