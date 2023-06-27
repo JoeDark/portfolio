@@ -4,7 +4,6 @@
   /*padding: 2rem;*/
   text-align: center;
 }
-
 .card {
   padding: 2em;
 }
@@ -15,9 +14,6 @@
 }
 
 @media screen and (max-width: 500px){
-  
-
-
 }
 
 .mainText{
@@ -56,4 +52,8 @@
 }
 .headerText{
   font-family: fangsong;
+}
+.buttonSpace{
+  margin-left: .25rem;
+  margin-right: .25rem;
 }

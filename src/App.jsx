@@ -2,19 +2,24 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
+import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
     <>
       <div className='mainText bordered'>
-        <h1 className='headerText'>Joseph Dark</h1>
-        <h3 className='bodyText'>Find out what is happening beneath the torrent...</h3>
-        <div className='iconRow'>
-          <a className='links' href='https://github.com/JoeDark'>Github</a>
-          <br />
-          <a className='links' href='https://www.linkedin.com/in/joseph-dark/'>Linkedin</a>
-        </div>
+
+        <Card style={{ background: '#00000000', width: '18rem', borderRadius: '25px' }}>
+      <Card.Body>
+        <Card.Title style={{fontSize: '1.75rem'}}><strong>Joseph Dark</strong></Card.Title>
+        <Card.Text>Find out what is happening beneath the torrent...</Card.Text>
+        <Button className="buttonSpace" variant="primary" href="https://github.com/JoeDark">GitHub</Button>
+        <Button className="buttonSpace"variant="primary" href="https://www.linkedin.com/in/joseph-dark/">Linkedin</Button>
+      </Card.Body>
+    </Card>       
       </div>
     </>
   )
