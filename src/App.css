@@ -60,3 +60,19 @@
   margin-left: .25rem;
   margin-right: .25rem;
 }
+
+.frosted-glass-container {
+  position: relative;
+ 
+  margin: 50px auto; /* Adjust margin as needed */
+  padding: 1rem;
+
+  /* Frosted glass effect */
+  background: rgba(255, 255, 255, 0.2); /* Adjust the alpha (fourth value) for the frosted effect */
+  border-radius: 1rem; /* Adjust the border radius as needed */
+  backdrop-filter: blur(1rem); /* Adjust the blur amount as needed */
+
+  /* Other styles for content inside the container */
+
+  color: white; /* Set text color */
+}
