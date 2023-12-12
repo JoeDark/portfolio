@@ -11,14 +11,18 @@ function App() {
 
   return (
     <>
-      <Container fluid style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none'}}>
-        <div style={{ position: 'absolute', top: '20%', pointerEvents: 'auto' }}>
+      <Container fluid style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
+        <div className='frosted-glass-container' style={{ position: 'absolute', top: '20%', pointerEvents: 'auto' }}>
           <h1 >Joseph Dark</h1>
         </div>
-        <div style={{ position: 'absolute', top: '50%', pointerEvents: 'auto'}}>
+        <div className='frosted-glass-container' style={{ position: 'absolute', top: '50%', pointerEvents: 'auto' }}>
           <h2>Full-Stack software developer, Tech curious</h2>
-        <h3>Find out what is happening beneath the torrent...</h3>
-      </div>
+          <h3>Find out what is happening beneath the torrent...</h3>
+          <div> 
+          <Button className="buttonSpace" variant="primary" target="_blank" href="https://github.com/JoeDark">GitHub</Button>
+          <Button className="buttonSpace" variant="primary" target="_blank" href="https://www.linkedin.com/in/joseph-dark/">Linkedin</Button>
+          </div>
+        </div>
       </Container>
 
 
